@@ -1,0 +1,104 @@
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+header {
+  border-bottom: 2px #ff6e5b solid;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+}
+
+section {
+  background-color: white;
+  margin: 60px 30px;
+  /* height: 1134px; */
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 90px;
+  margin-top: 10px;
+  color: #393c6c;
+}
+
+#recette .text-1 {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+#tempo {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.tempos {
+  background-color: #8a98b1;
+  height: 54px;
+  width: 400px;
+  border-radius: 20px;
+  margin: 60px auto 30px auto;
+  padding-top: 23px;
+}
+
+#tempo img {
+  height: 280px;
+  width: 280px;
+  object-fit: cover;
+  margin-right: 18px;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  color: #f3735f;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #393c6c;
+}
+
+header {
+  background-color: #ffffff;
+  margin-bottom: 1px;
+  height: 121px;
+}
+
+header img {
+  width: 312px;
+  padding-top: 35px;
+  margin-bottom: 10px;
+}
+
+#ingredients h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  color: #f3735f;
+  margin-left: 30px;
+}

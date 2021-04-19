@@ -13,6 +13,7 @@ header {
   margin: 0 auto;
   background-color: white;
   border-radius: 20px;
+  padding-bottom: 1px;
 }
 
 section {
@@ -27,11 +28,10 @@ p {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 700;
   text-align: center;
-  line-height: 90px;
-  margin-top: 10px;
+  line-height: 100px;
   color: #393c6c;
 }
 
@@ -45,18 +45,19 @@ h1 {
 #tempo {
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .tempos {
   background-color: #8a98b1;
-  height: 54px;
+  height: 35px;
   width: 400px;
   border-radius: 20px;
   margin: 60px auto 30px auto;
-  padding-top: 23px;
+  padding-top: 16px;
+  margin-bottom: 80px;
 }
 
 #tempo img {
@@ -65,21 +66,6 @@ h1 {
   object-fit: cover;
   margin-right: 18px;
   border-radius: 20px;
-}
-
-h2 {
-  font-size: 30px;
-  font-weight: 700;
-  margin-top: 70px;
-  margin-bottom: 20px;
-  color: #f3735f;
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 22px;
-  color: #393c6c;
 }
 
 header {
@@ -97,8 +83,60 @@ header img {
 #ingredients h2 {
   font-size: 30px;
   font-weight: 700;
-  margin-top: 70px;
+  margin-top: 20px;
   margin-bottom: 20px;
   color: #f3735f;
   margin-left: 30px;
+}
+
+#ingredients li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #000000;
+  margin-left: 30px;
+}
+
+#preparation h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #f3735f;
+  margin-left: 30px;
+}
+
+#preparation .titoletto {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin-left: 30px;
+  margin-bottom: 3px;
+}
+
+#preparation .testo {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000000;
+  margin-left: 30px;
+}
+
+.baseline {
+  width: 1024px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+}
+
+footer p {
+  text-align: center;
+  line-height: 200px;
+  font-size: 14;
+}
+
+.color-Miruko {
+  color: teal;
+  font-weight: 700;
 }
